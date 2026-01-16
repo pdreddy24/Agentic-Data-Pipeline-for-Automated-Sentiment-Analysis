@@ -1,0 +1,17 @@
+# Airflow
+apache-airflow>=3.0.6
+apache-airflow-providers-fab>=3.0.0
+
+# ML/NLP
+transformers
+torch
+
+
+# Database
+psycopg2-binary>=2.9.0
+
+# Testing
+pytest
+
+# OpenAI
+openai>=1.0.0
