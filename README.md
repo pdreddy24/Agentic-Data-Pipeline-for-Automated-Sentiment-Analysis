@@ -111,8 +111,8 @@ This project intentionally showcases **core data engineering skills**.
 ## 🏗️ Architecture Overview
 
 <img width="1536" height="1024" alt="automated_healing" src="https://github.com/user-attachments/assets/46ed2230-9644-4d33-9b8f-4efa98dd85d9" />
-image source:chatgpt image (eduvision project)
 
+```bash
 Source Data (File / S3)
 ↓
 Batch Loader (Offset-based)
@@ -122,10 +122,7 @@ Self-Healing Engine
 LLM Sentiment Analysis (OpenAI)
 ↓
 Enriched Output with Metadata
-
-yaml
-Copy code
-
+```
 - **Control Plane:** Apache Airflow
 - **Data Plane:** Stateless batch processing
 
